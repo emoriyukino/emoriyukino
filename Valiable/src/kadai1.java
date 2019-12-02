@@ -2,9 +2,10 @@
 public class kadai1 {
 
 	public static void main(String[] args) {
+		//小数点表示
 		double num = 31.2;
 		System.out.println(num);
-		
+	    //文字列
 		String name = "Java研修";
 		System.out.println(name);
 		
@@ -16,7 +17,7 @@ public class kadai1 {
         System.out.println(number2);
 		
 		String name1="才";
-		 System.out.println(name1);
+		System.out.println(name1);
 
 				
 		
