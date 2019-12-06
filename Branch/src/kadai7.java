@@ -3,13 +3,10 @@ import java.util.Scanner;
 public class kadai7 {
 
 	public static void main(String[] args) {
-		
-		System.out.println("病院に行く曜日を入力してください");
-		System.out.println("【日曜,月曜,火曜,水曜,木曜,金曜,土曜】");
-		
 		Scanner sc = new java.util.Scanner(System.in);
 		String msgA = sc.nextLine();
-		
+		System.out.println("病院に行く曜日を入力してください");
+		System.out.println("【日曜,月曜,火曜,水曜,木曜,金曜,土曜】");
 		switch(msgA) {
 		 case "月曜":
 			 System.out.println("午前診療と午後診療があります");
@@ -34,14 +31,9 @@ public class kadai7 {
 		 default:
 			 System.out.println("入力を確認してください");
 		}
-		
-			
 		sc.close();
-			
-			
-		   
 	}
-	    
+
 
 }
 

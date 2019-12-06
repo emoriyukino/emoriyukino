@@ -8,7 +8,6 @@ public class kadai6 {
 		Scanner sc = new java.util.Scanner(System.in);
 		int intNum =sc.nextInt();
 		//String[] msg = { "Ⅱ","Ⅲ","Ⅳ","Ⅴ"};
-		
 		String msg;
 		switch (intNum) {
 			case 1:
@@ -29,14 +28,10 @@ public class kadai6 {
 			default:
 				msg ="unknown";
 				break;
-				
-				
-			
-				
 		}
 		String message2 = intNum+"->"+msg;
 		System.out.println(message2);
-		
+
 		sc.close();
 
 	}
