@@ -8,19 +8,18 @@ public class kadai1 {
 	    //文字列
 		String name = "Java研修";
 		System.out.println(name);
-		
-		int number1=9;
+		int number1 = 9;
 		System.out.println(number1);
-		
-		
-	    long number2=2147483648L;
+
+
+	    long number2 = 2147483648L;
         System.out.println(number2);
-		
-		String name1="才";
+
+		String name1 = "才";
 		System.out.println(name1);
 
-				
-		
+
+
 
 	}
 
