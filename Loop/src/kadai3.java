@@ -7,14 +7,12 @@ public class kadai3 {
 		Scanner sc = new java.util.Scanner(System.in);
 		int intNum = sc.nextInt();
 		int keta = 0;
-		while(intNum>0) {
+		while(intNum > 0) {
 			intNum /= 10 ;
 			keta++;
-			
 		}
 		System.out.print("桁数："+keta);
 		sc.close();
-
 	}
 
 }
