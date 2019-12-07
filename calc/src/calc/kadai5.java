@@ -8,11 +8,13 @@ public class kadai5 {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.nextLine();
 		String strcha= sc.nextLine();
-		System.out.println("ノートPCの値段:"+ "89800" +"円");
+		String kitei1 = "ノートPCの値段:";
+		String kitei2 = "89800";
+		String kitei3 = "円";
+		System.out.println(kitei1+ kitei2 +kitei3);
 		System.out.println(str);
 		System.out.println(strcha);
 		System.out.println(str+strcha);
 		sc.close();
 	}
-
 }
