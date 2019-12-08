@@ -7,7 +7,6 @@ public class kadai6 {
 		System.out.println("1から５までの数字を入力してください");
 		Scanner sc = new java.util.Scanner(System.in);
 		int intNum =sc.nextInt();
-		//String[] msg = { "Ⅱ","Ⅲ","Ⅳ","Ⅴ"};
 		String msg;
 		switch (intNum) {
 			case 1:
@@ -29,9 +28,7 @@ public class kadai6 {
 				msg ="unknown";
 				break;
 		}
-		String message2 = intNum+"->"+msg;
-		System.out.println(message2);
-
+		System.out.println( intNum+" -> "+msg);
 		sc.close();
 
 	}

@@ -9,19 +9,12 @@ public class kadai1 {
 		//int intNum = new java.util.Scanner(System.in).nextInt();
 		Scanner sc = new java.util.Scanner(System.in);
 		int intNum = sc.nextInt();
-		System.out.print("値:");
-		if(intNum >= 10) {
-			System.out.println(intNum);
-		}
 		if(intNum < 10) {
-			System.out.println(intNum * 10);
+		   intNum *= 10;
 		}
+		System.out.println("値:"+intNum);
 		sc.close();
-
 		}
-
-
-
 	}
 
 
