@@ -16,9 +16,9 @@ public class kadai3 {
 			if(a >= 1 && a < 5) {
 				System.out.print(","+numbers[a]);
 			}else if (a == 5) {
-				System.out.print(","+numbers[5]+"]");
+				System.out.print(","+numbers[a]+"]");
 			}else {
-				System.out.print("["+numbers[0]);
+				System.out.print("["+numbers[a]);
 			}
 			if (max < numbers[a]) {
 				max = numbers[a];

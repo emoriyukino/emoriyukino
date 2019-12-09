@@ -7,7 +7,7 @@ public class kadai2 {
 			if(a > 0) {
 				System.out.print(","+numbers[a]);
 			}else {
-				System.out.print(numbers[0]);
+				System.out.print(numbers[a]);
 			}
 		}
 		System.out.println("");
@@ -16,7 +16,7 @@ public class kadai2 {
 			if(a < 6) {
 				System.out.print(","+numbers[a]);
 			}else {
-				System.out.print(numbers[6]);
+				System.out.print(numbers[a]);
 			}
 		}
 	}
