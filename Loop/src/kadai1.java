@@ -7,7 +7,7 @@ public class kadai1 {
 		Scanner sc = new java.util.Scanner(System.in);
 		int intNum = sc.nextInt();
 		int sum = 0;
-	for(int a = 1; a <= intNum; a++) {
+		for(int a = 1; a <= intNum; a++) {
 			  sum += a;
 		}
 		System.out.println("1から"+intNum+"までの合計:"+sum);
