@@ -8,7 +8,7 @@ public class kadai1 {
 		int intNum = sc.nextInt();
 		int sum = 0;
 		for(int a = 1; a <= intNum; a++) {
-			  sum += a;
+			sum += a;
 		}
 		System.out.println("1から"+intNum+"までの合計:"+sum);
 		sc.close();

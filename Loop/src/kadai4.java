@@ -5,6 +5,7 @@ public class kadai4 {
 		System.out.print("正の約数を入力してください:");
 		Scanner sc = new java.util.Scanner(System.in);
 		int intNum = sc.nextInt();
+		System.out.print(intNum+"の約数: ");
 		for(int a = 1; a <= intNum ;a++) {
 			if(a == 1) {
 				System.out.print(a);
