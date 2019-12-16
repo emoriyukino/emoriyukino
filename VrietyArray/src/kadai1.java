@@ -11,7 +11,7 @@ public class kadai1 {
 		names.add("近畿");
 		names.add("中国");
 		names.add("九州");
-		for(String Chihou:names) {
+		for(String Chihou : names) {
 			System.out.println(Chihou);
 		}
 	}
