@@ -7,9 +7,9 @@ public class kadai4 {
 		String text1 = sc.nextLine();
 		String text2 = "ABCDGOPRSYZ";
 		if(text2.contains(text1)) {
-			System.out.println(text2+"は"+text1+"を含む");
+			System.out.println(text2 + "は" + text1 + "を含む");
 		}else {
-			System.out.println(text2+"は"+text1+"を含まない");
+			System.out.println(text2 + "は" + text1 + "を含まない");
 		}	
 		sc.close();
 	}
