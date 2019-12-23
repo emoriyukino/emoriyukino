@@ -3,7 +3,7 @@ public class kadai1 {
 	public static void main(String[] args) {
 		int[] scores = {4, 9, 19, 5, 8, 21, 42, 64, 73, 18, 2};
 		int sum = 0 ;
-		for(int a = 0 ; a < 11; a++) {
+		for(int a = 0 ; a < scores.length ; a++) {
 			 if(a >= 1 && a <= 10) {
 			   System.out.print(","+scores[a]);
 			 }else if (a == 10) {

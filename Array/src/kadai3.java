@@ -3,13 +3,10 @@ import java.util.Random;
 public class kadai3 {
 	public static void main(String[] args) {
 	    Random sc = new java.util.Random();
-		int A  = sc.nextInt(9);
-		int B  = sc.nextInt(9);
-		int C  = sc.nextInt(9);
-		int D  = sc.nextInt(9);
-		int E  = sc.nextInt(9);
-		int F  = sc.nextInt(9);
-		int[] numbers = {A, B, C, D, E, F};
+	    int[] numbers = new int[6];
+	    for(int a = 0; a < 6 ; a++) {
+	    	 numbers[a]  = sc.nextInt(9);
+	    }
 		int max = numbers[0];
 		int min = numbers[0];
 		for (int a=0; a < numbers.length; a++) {
