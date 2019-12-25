@@ -11,7 +11,6 @@ public class kadai2 {
 			}
 		}
 		System.out.println("");
-
 		for(int a = 6 ; a >= 0 ; a--) {
 			if(a < 6) {
 				System.out.print(","+numbers[a]);
