@@ -7,10 +7,12 @@ public class kadai4 {
 		int intNum = sc.nextInt();
 		System.out.print(intNum+"の約数: ");
 		for(int a = 1; a <= intNum ;a++) {
-			if(a > 1 || a <= intNum) {
-				System.out.print(","+a);
-			}else {
+			if(intNum % a == 0) {
+				if(a == 1) {
 				System.out.print(a);
+				}else {
+				System.out.print(","+a);
+				}
 			}
 		}
 		sc.close();
