@@ -8,12 +8,11 @@ public class Person {
 	  private int age = 0;
 
 	//課題１で作成したコンストラクタ
-	public Person(String name ,int age ) {
+	public Person(String name ,int age) {
 		this.name = name;
 		this.age = age;
 	}
 	public Person() {
-		this("出てません", 00);
 	}
 	//課題2で作成したコンストラクタ
 	public Person(int wallet) {
@@ -22,7 +21,12 @@ public class Person {
 	//課題３で作成したコンストラクタ
 	public String getName() {
 		return this.name ;
-
+	}
+	public int getAge() {
+		return this.age ;
+	}
+	public void setName(String name) {
+		this.name = name;
 	}
 	public void setAge(int age) {
 		this.age = age;
