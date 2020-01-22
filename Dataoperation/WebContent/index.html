@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>課題１</title>
+</head>
+<body>
+
+<form action = "Result"method = "POST">
+名前: <input type = "text" name = "name"><br>
+性別:
+男<input type = "radio" name = "gender"value = "0">
+女<input type = "radio" name = "gender"value = "1"><br>
+お問合せ種類<br>
+<select name = "qtype">
+<option value = "product" label = 製品について></option>
+<option value = "compliant" label =不具合やクレーム></option>
+<option value = "support" label = アフターサポート></option>
+</select><br>
+お問合せ内容<br>
+<textarea name = "textarea" rows = "4" cols = "40">150文字以内で入力してください</textarea><br>
+<input type = "submit"value = "送信">
+</form>
+
+
+
+</body>
+</html>
