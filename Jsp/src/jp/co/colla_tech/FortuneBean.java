@@ -3,10 +3,10 @@ import java.io.Serializable;
 import java.util.Date;
 
 public class FortuneBean implements Serializable {
-	
+
 	private Date today = new Date();
 	private String fortune = "";
-	
+
 	public FortuneBean() {};
 	public Date getToday() {
 		return this.today;
