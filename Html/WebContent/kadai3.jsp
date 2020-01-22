@@ -17,7 +17,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>訪問回数:<% out.print(count++);%></h1>
-<p>今日の日付:<% out.print(msg.format(now)); %>
+	<h1>訪問回数:<% out.print(count++);%></h1>
+	<p>今日の日付:<% out.print(msg.format(now)); %>
 </body>
 </html>
