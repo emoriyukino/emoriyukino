@@ -7,7 +7,7 @@ public class kadai5 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.nextLine();
-		String strcha= sc.nextLine();
+		String strcha = sc.nextLine();
 		String kitei1 = "ノートPCの値段:";
 		String kitei2 = "89800";
 		String kitei3 = "円";
