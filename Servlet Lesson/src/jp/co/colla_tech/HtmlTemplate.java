@@ -33,8 +33,6 @@ public class HtmlTemplate extends HttpServlet {
 		out.println("<title>Servlet Kadai</title>");
 		out.println("</head>");
 		out.println("<body>");
-		//課題４で追加
-		out.println("<p>↓占い結果↓</p>");
 
 	}
 

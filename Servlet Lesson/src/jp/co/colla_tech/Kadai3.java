@@ -37,6 +37,8 @@ public class Kadai3 extends HttpServlet {
 		response.setContentType("text/html ; charset = UTF-8 ");
 		PrintWriter out = response.getWriter();
 		HtmlTemplate.header(out);
+		//課題４で追加
+		out.println("<p>↓占い結果↓</p>");
 		out.println("<h1>" + Answer + "</h1>");
 		HtmlTemplate.footer(out);
 
