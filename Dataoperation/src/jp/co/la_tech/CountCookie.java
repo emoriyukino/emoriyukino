@@ -41,7 +41,7 @@ public class CountCookie extends HttpServlet {
 		if(cookies == null || (cookie = getCookie(cookies, countName)) == null) {
 			counter = 1;
 			msg = "初めて";
-			}else {
+		}else {
 			counter = Integer.parseInt(cookie.getValue());
 			counter++;
 			msg = counter + "回目";
